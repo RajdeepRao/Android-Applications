@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Favourite Movies</string>
+    <string-array name="genre_array">
+        <item>Select Genre</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Comedy</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+    <string name="add_movie">Add Movie</string>
+    <string name="movies_by_year">Movies By Year</string>
+    <string name="movie_by_rating">Movies By Rating</string>
+
+</resources>

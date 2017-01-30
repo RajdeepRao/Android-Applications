@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="INR">INR</string>
+    <string name="AUD">AUD</string>
+    <string name="CUD">CAD</string>
+    <string name="GBP">GBP</string>
+    <string name="USD">USD</string>
+    <string name="ConvertTo">Convert To</string>
+    <string name="Convert">Convert</string>
+    <string name="InputAmount">Input Amount</string>
+    <string name="ConvertedVal">Convered Value</string>
+    <string name="Clear">Clear</string>
+
+
+</resources>

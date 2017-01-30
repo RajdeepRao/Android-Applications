@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rajdeep.homework2.DisplayListYearActivity"
+    android:id="@+id/activity_display_list_year">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Movies By Year"
+            android:textStyle="bold"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/subTitle" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:text="Title : "
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:layout_weight="0.38" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleValue"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Description :  "
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:text="text View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionValue"
+            android:layout_weight="0.03" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="29dp">
+
+            <TextView
+                android:text="Genre :"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="0.36" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/genreValue"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="25dp">
+
+            <TextView
+                android:text="Rating :"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="0.33" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingValue"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="29dp">
+
+            <TextView
+                android:text="Year :"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="0.40" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearValue"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:text="IMDB :"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:text="imdbVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imdbVal" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <Button
+                android:text=""
+                android:layout_width="53dp"
+                android:layout_height="47dp"
+                android:background="@drawable/first"
+                android:id="@+id/start" />
+
+            <Button
+                android:text=""
+                android:layout_width="53dp"
+                android:layout_height="47dp"
+                android:background="@drawable/previous"
+                android:id="@+id/back"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/finish"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=""
+                android:layout_width="53dp"
+                android:layout_height="47dp"
+                android:background="@drawable/next"
+                android:id="@+id/next"
+                android:layout_weight="1" />
+
+            <Button
+                android:text=""
+                android:layout_width="53dp"
+                android:layout_height="47dp"
+                android:background="@drawable/last"
+                android:id="@+id/last"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
