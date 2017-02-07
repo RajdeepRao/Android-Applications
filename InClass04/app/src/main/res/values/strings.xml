@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="select_news_source">Select News Source</string>
+    <string name="get_news">Get News</string>
+    <string name="news_image">News Image</string>
+    <string name="finish">Finish</string>
+    <string-array name="spinner_array">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+    <string-array name="news_array">
+        <item>bbc-news</item>
+        <item>cnn</item>
+        <item>buzzfeed</item>
+        <item>espn</item>
+        <item>sky-news</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Word Counter</string>
+    <string name="addWordsToSearch">Add words to search :</string>
+</resources>
